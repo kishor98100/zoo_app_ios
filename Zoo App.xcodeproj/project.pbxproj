@@ -15,6 +15,8 @@
 		022B35DB252B6ED200B15F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022B35D9252B6ED200B15F4E /* LaunchScreen.storyboard */; };
 		022B35E6252B6ED300B15F4E /* Zoo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B35E5252B6ED300B15F4E /* Zoo_AppTests.swift */; };
 		022B35F1252B6ED300B15F4E /* Zoo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B35F0252B6ED300B15F4E /* Zoo_AppUITests.swift */; };
+		022B3602252B726000B15F4E /* TableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B3601252B726000B15F4E /* TableItem.swift */; };
+		022B3607252B735D00B15F4E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B3606252B735D00B15F4E /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		022B35EC252B6ED300B15F4E /* Zoo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zoo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		022B35F0252B6ED300B15F4E /* Zoo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zoo_AppUITests.swift; sourceTree = "<group>"; };
 		022B35F2252B6ED300B15F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022B3601252B726000B15F4E /* TableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItem.swift; sourceTree = "<group>"; };
+		022B3606252B735D00B15F4E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				022B35D0252B6ED100B15F4E /* SceneDelegate.swift */,
 				022B35D2252B6ED100B15F4E /* ViewController.swift */,
 				022B35D4252B6ED100B15F4E /* Main.storyboard */,
+				022B3601252B726000B15F4E /* TableItem.swift */,
+				022B3606252B735D00B15F4E /* Animal.swift */,
 				022B35D7252B6ED200B15F4E /* Assets.xcassets */,
 				022B35D9252B6ED200B15F4E /* LaunchScreen.storyboard */,
 				022B35DC252B6ED200B15F4E /* Info.plist */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				022B35D3252B6ED100B15F4E /* ViewController.swift in Sources */,
+				022B3602252B726000B15F4E /* TableItem.swift in Sources */,
 				022B35CF252B6ED100B15F4E /* AppDelegate.swift in Sources */,
 				022B35D1252B6ED100B15F4E /* SceneDelegate.swift in Sources */,
+				022B3607252B735D00B15F4E /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
